@@ -1,0 +1,23 @@
+<% include partials/header%>
+
+<h1> עמוד זה יהיה עמוד יצירת דוח חדש..יוביל למספר עמודים נוספים איכשהו</h1>
+
+<form action ="/home/newReport/Q1_general" method = "POST"> 
+    שם פרטי:<br>
+    <input type="text" name="firstName"><br>
+    שם משפחה:<br>
+    <input type="text" name="lastName"><br>
+    שם מדריך:<br>
+    <input type="text" name="instructorName"><br>
+    סוג קייטנה:<br>
+    <input type="radio" name="campType" value="סוכות" checked>סוכות<br>
+    <input type="radio" name="campType" value="חנוכה">חנוכה <br>
+    <input type="radio" name="campType" value="פסח"> פסח <br>
+    <input type="radio" name="campType" value="קיץ"> קיץ <br>
+    
+    <button>הבא</button>
+</form>
+
+
+
+<% include partials/footer%>
